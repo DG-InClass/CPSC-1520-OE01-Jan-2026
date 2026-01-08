@@ -11,7 +11,7 @@ This draft planning calendar shows the dates for all **evaluation items**. For a
 | Week 1  |   Jan 8 - 10   |                |               |                             |
 | Week 2  |  Jan 11 - 17   |                |               |                             |
 | Week 3  |  Jan 18 - 24   | Quiz 1, Jan 23 |               |                             |
-| Week 4  |  Jan 25 - 26   |                | Lab 1,        |                             |
+| Week 4  |  Jan 25 - 31   |                | Lab 1,        |                             |
 | Week 5  |   Feb 1 - 7    |                | Lab 2,        |                             |
 | Week 6  |   Feb 8 - 14   | Quiz 2, Feb 13 | Lab 3,        | *Out: Assignment 1, Feb 13* |
 | Week 7  |  Feb 15 - 21   |                |               |                             |
