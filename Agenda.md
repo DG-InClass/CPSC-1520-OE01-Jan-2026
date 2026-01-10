@@ -43,12 +43,14 @@ Here are quick links to the quiz readings on Brightspace.
 
 ## Sep-Dec 2025 Schedule
 
-### Sep 03
+### Jan 8/?
 
-- Course Introduction
-- GitHub Account Setup
-- Software Setup
-- Workbook Setup
+- **Today**
+  - Course Introduction
+  - GitHub Account Setup
+  - Software Setup
+    - VS Code **Profiles**
+  - Workbook Setup
 - **Homework:**
   - Ensure you have completed the [**system setup**](https://dgilleland.github.io/CPSC-1520/tutorials/0010/) so that you have the software etc. that you need for this course.
 
