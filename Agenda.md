@@ -1,10 +1,10 @@
-# Agenda (A03)
+# Agenda (E01)
 
 <!--
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-28). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-14). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -41,25 +41,77 @@ Here are quick links to the quiz readings on Brightspace.
 
 ----
 
-## Sep-Dec 2025 Schedule
-
-### Jan 8/?
+### Jan 12
 
 - **Today**
-  - Course Introduction
-  - GitHub Account Setup
-  - Software Setup
+  - 🕖 Part A)
+    - Course Introduction
+    - Introduce self
+    - QnA
+  - 🕗 Part B)
+    - GitHub Account Setup
+    - Introduction to Terminal Commands
+    - Software Setup
+  - 🕘 Part C)
+    - Git from the Command Line
+    - Student Workbook Setup
     - VS Code **Profiles**
-  - Workbook Setup
 - **Homework:**
   - Ensure you have completed the [**system setup**](https://dgilleland.github.io/CPSC-1520/tutorials/0010/) so that you have the software etc. that you need for this course.
+  - Troubleshoot Access
+    - 🚨 Contact me via MS Teams outside of class if you have any trouble accessing/using your workbook or other repositories!
 
+### Jan 14
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+----
+
+### Jan 19
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+### Jan 21
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+----
+
+### Jan 26
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+### Jan 28
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+----
+
+## Sep-Dec 2025 Schedule
 
 ### Sep 05
 
 - Workbook Setup
-  - Troubleshoot Access
-    - 🚨 Contact me via MS Teams outside of class if you have any trouble accessing/using your workbook or other repositories!
   - [000](./src/000/ReadMe.md)
 - **Homework:**
   - Complete the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0011/) tutorial; be sure to publish it as a **public** repository on your **personal** GitHub account.
