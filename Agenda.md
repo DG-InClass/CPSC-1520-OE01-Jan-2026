@@ -14,12 +14,12 @@ Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wor
 
 Here are quick links to the quiz readings on Brightspace.
 
-- [Readings for Quiz/Assessment 1](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998885/View)
-- [Readings for Quiz/Assessment 2](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998928/View)
-- [Readings for Quiz/Assessment 3](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998978/View)
-- [Readings for Quiz/Assessment 4](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999028/View)
-- [Readings for Quiz/Assessment 5](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999030/View)
-- [Readings for Quiz/Assessment 6](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999078/View)
+- [Readings for Quiz/Assessment 1](https://lms.nait.ca/d2l/le/content/97666/viewContent/4920726/View)
+- [Readings for Quiz/Assessment 2](https://lms.nait.ca/d2l/le/content/97666/viewContent/4920769/View)
+- [Readings for Quiz/Assessment 3](https://lms.nait.ca/d2l/le/content/97666/viewContent/4920819/View)
+- [Readings for Quiz/Assessment 4](https://lms.nait.ca/d2l/le/content/97666/viewContent/4920869/View)
+- [Readings for Quiz/Assessment 5](https://lms.nait.ca/d2l/le/content/97666/viewContent/4920871/View)
+- [Readings for Quiz/Assessment 6](https://lms.nait.ca/d2l/le/content/97666/viewContent/4920919/View)
 
 
 > ## Starter Kits
