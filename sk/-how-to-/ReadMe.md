@@ -8,7 +8,7 @@ If there is a sample in your instructor's workbook that you want to pull into yo
 1. Copy and paste the supplied command into the terminal.
 
     ```ps
-    pnpm dlx tiged --disable-cache --force dgilleland/CPSC-1520-Workbook/sk/-how-to- ./src/-how-to-
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/-how-to- ./src/-how-to-
     ```
 
 1. When you press <kbd>Enter</kbd>, the starter kit will be downloaded to your computer in the location specified in the command.
