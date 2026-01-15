@@ -55,7 +55,6 @@ Here are quick links to the quiz readings on Brightspace.
   - 🕘 Part C)
     - Git from the Command Line
     - Student Workbook Setup
-    - VS Code **Profiles**
 - **Homework:**
   - Ensure you have completed the [**system setup**](https://dgilleland.github.io/CPSC-1520/tutorials/0010/) so that you have the software etc. that you need for this course.
   - Troubleshoot Access
@@ -65,9 +64,25 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - *Preamble:*
+      - *Timeline of other courses (Evening Studies)*
+      - *This Semester - Your Load?*
+      - *This Course - [Planning Calendar](./Calendar.md)*
+    - VS Code **Profiles**
+    - Starter Kits - Sample
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/-how-to- ./src/-how-to-
+      ```
+
+    - Website Development: Servers vs. Browsers
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
+  - Review (and complete) these starter projects:
+    - [000](./src/000/ReadMe.md)
+    - [001](./src/001-StartHere/ReadMe.md)
+    - [002](./src/002/ReadMe.md)
 
 ----
 
