@@ -95,6 +95,7 @@ Here are quick links to the quiz readings on Brightspace.
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/-how-to- ./src/-how-to-
       ```
 
+    - Browser Developer Tools - Exploring the Console as a JavaScript REPL (Read-Eval-Print-Loop)
   - 🕘 Part C)
     - Website Development: Servers vs. Browsers
     - [JavaScript in the Browser](./src/003/ReadMe.md)
