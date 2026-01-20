@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-19). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-21). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -88,31 +88,19 @@ Here are quick links to the quiz readings on Brightspace.
 - **Today**
   - 🕖 Part A)
     - **Revised Student Workbook** - Clone and Open
+  - 🕗 Part B)
     - Starter Kits - Sample
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/-how-to- ./src/-how-to-
       ```
 
+  - 🕘 Part C)
     - Website Development: Servers vs. Browsers
     - [JavaScript in the Browser](./src/003/ReadMe.md)
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/003 ./src/003
-      ```
-
-  - 🕗 Part B)
-    - [JavaScript in your web page](./src/004/ReadMe.md)
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/004 ./src/004
-      ```
-
-  - 🕘 Part C)
-    - [Handling Information](./src/005/ReadMe.md)
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/005 ./src/005
       ```
 
 - **Homework**
@@ -125,7 +113,19 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - [JavaScript in your web page](./src/004/ReadMe.md)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/004 ./src/004
+      ```
+
   - 🕗 Part B)
+    - [Handling Information](./src/005/ReadMe.md)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/005 ./src/005
+      ```
+
   - 🕘 Part C)
 - **Homework**
 
