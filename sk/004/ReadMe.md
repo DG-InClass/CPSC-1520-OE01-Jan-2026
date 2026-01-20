@@ -11,11 +11,11 @@ The following is a short-list of the topics covered in this demo.
 
 ## Discover Emmet  ![Code](https://img.shields.io/badge/Code%20Status-Walkthrough-blueviolet?logo=Visual%20Studio%20Code&labelColor=indigo)
 
-This walkthrough introduces **Emmet**. It also contains two small JavaScript files: [`first.js`](./first.js) and [`second.js`](./second.js). Here, we will explore the effect of including these in the `<head>` of an HTML document that we will generate using *Emmet*.
+This walkthrough introduces **Emmet**. It also contains two small JavaScript files: [`first.js`](./demo/first.js) and [`second.js`](./demo/second.js). Here, we will explore the effect of including these in the `<head>` of an HTML document that we will generate using *Emmet*.
 
 Loading external JavaScript files is accomplished through the `<script>` element's `src` attribute. JavaScript code can be included in the HTML directly by being placed in the `<script>` element directly, but larger scripts are typically kept separate from the HTML in their own files. They standard file extension for JavaScript files is `.js`.
 
-1. Create an `Index.html` file in this folder. Add a basic html document using [Emmet](https://code.visualstudio.com/docs/editor/emmet) by typing `html:5` and selecting the Emmet-generated expansion.
+1. Create an `Index.html` file in the `demo/` folder. Add a basic html document using [Emmet](https://code.visualstudio.com/docs/editor/emmet) by typing `html:5` and selecting the Emmet-generated expansion.
 
    ![Emmet](./images/Emmet.png)
 
