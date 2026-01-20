@@ -1,6 +1,6 @@
 # CPSC-1520 - **Student Workbook** (Sep 2025)
 
-> **STUDENT_NAME** - Place your name in this line.
+> **Dan Gilleland**
 
 ## ![Inside This Repo](./docs/images/level.png) Inside this repository
 
