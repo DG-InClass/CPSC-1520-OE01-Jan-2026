@@ -28,25 +28,21 @@ Loading external JavaScript files is accomplished through the `<script>` element
 1. In the `<head>` element of the page, add the following markup.
 
     ```html
-    <script src="first.js"></script>
-    <script src="second.js" type="module" defer></script>
+    <script src="./first.js"></script>
+    <script src="./second.js" type="module" defer></script>
     ```
-
-1. View the page in the browser by launching it using Live Server. Right-click on the file and choose "Open with Live Server".
-
-    ![Live Server](./images/LiveServer.png)
 
 > *:+1: **TIP:** It's usually a good idea to use relative paths when linking your HTML to JavaScript files. This makes it easier to move sets of files around without having to change the internal code.*
 
 ## Use a Vite Server
 
-Every website needs a web server in order for people to view the pages. When we used the *Live Server* extension in VS Code, that acted as our web server. The problem, however, is that Live Server treats the *root of the repository* as the root of the website. We can do something better than that by creating our example as its own **Web Project** using [**Vite**](https://vitejs.dev/).
+Every website needs a web server in order for people to view the pages. You might have used the *Live Server* extension in VS Code in other classes to act as the web server. The problem, however, is that Live Server treats the *root of the repository* as the root of the website. We can (*and **should***) do something better than that by creating our example as its own **Web Project** using [**Vite**](https://vitejs.dev/).
 
-1. If you are still viewing your page using Live Server, stop the server by clicking the appropriate part of the VS Code status bar.
-1. In the terminal, navigate to the folder holding your `index.html` file.
-1. Create a  **project** by typing `pnpm init` in the terminal. This will create a `package.json` file. Take a few moments to look over that file and see what it contains.
-1. Add a development dependency to [**Vite**](https://vitejs.dev/) by typing `pnpm i -D vite` in the terminal. This will modify the `package.json` file to reference Vite as a third-party solution. It will also set up a `node_modules` folder where all your third-party packages will reside.
-1. Modify your `package.json` by adding a script entry to run the Vite server. It's only **one line** that you are adding to your `package.json`.
+1. Make sure you are not viewing your page using Live Server; stop the server by clicking the appropriate part of the VS Code status bar.
+2. In the terminal, navigate to the folder holding your `index.html` file.
+3. Create a  **project** by typing `pnpm init` in the terminal. This will create a `package.json` file. Take a few moments to look over that file and see what it contains.
+4. Add a development dependency to [**Vite**](https://vitejs.dev/) by typing `pnpm i -D vite` in the terminal. This will modify the `package.json` file to reference Vite as a third-party solution. It will also set up a `node_modules` folder where all your third-party packages will reside.
+5. Modify your `package.json` by adding a script entry to run the Vite server. It's only **one line** that you are adding to your `package.json`.
 
     ```json
     "scripts": {
@@ -55,7 +51,7 @@ Every website needs a web server in order for people to view the pages. When we 
     },
     ```
 
-1. In the terminal, enter `pnpm run dev` (or just `pnpm dev`). This will launch Vite as your web server. While in the terminal, press `o` and hit <kbd>enter</kbd>. This will open the page in the browser.
+6. In the terminal, enter `pnpm run dev` (or just `pnpm dev`). This will launch Vite as your web server. While in the terminal, press `o` and hit <kbd>enter</kbd>. This will open the page in the browser.
 
 
 ----
