@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-14). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-19). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -69,20 +69,17 @@ Here are quick links to the quiz readings on Brightspace.
       - *This Semester - Your Load?*
       - *This Course - [Planning Calendar](./Calendar.md)*
     - VS Code **Profiles**
-    - Starter Kits - Sample
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/-how-to- ./src/-how-to-
-      ```
-
-    - Website Development: Servers vs. Browsers
+    - 💥 Troubleshooting Student Workbooks.... 😢
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
-  - Review (and complete) these starter projects:
-    - [000](./src/000/ReadMe.md)
-    - [001](./src/001-StartHere/ReadMe.md)
-    - [002](./src/002/ReadMe.md)
+  - Try out the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0011/) tutorial on my site.
+  - Read [Why JavaScript](https://dgilleland.github.io/CPSC-1520/explanations/0010/)
+  - Read [JavaScript as a Language](https://dgilleland.github.io/CPSC-1520/explanations/0020/)
+  - Read [How JavaScript Works](https://dgilleland.github.io/CPSC-1520/explanations/0025/)
+  - Read the [Material for Quiz 1](https://lms.nait.ca/d2l/le/content/97666/viewContent/4920726/View)
+
+
 
 ----
 
@@ -90,9 +87,39 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - **Revised Student Workbook** - Clone and Open
+    - Starter Kits - Sample
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/-how-to- ./src/-how-to-
+      ```
+
+    - Website Development: Servers vs. Browsers
+    - [JavaScript in the Browser](./src/003/ReadMe.md)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/003 ./src/003
+      ```
+
   - 🕗 Part B)
+    - [JavaScript in your web page](./src/004/ReadMe.md)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/004 ./src/004
+      ```
+
   - 🕘 Part C)
+    - [Handling Information](./src/005/ReadMe.md)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/005 ./src/005
+      ```
+
 - **Homework**
+  - Review (and complete) these starter projects:
+    - [000](./src/000/ReadMe.md)
+    - [001](./src/001-StartHere/ReadMe.md)
+    - [002](./src/002/ReadMe.md)
 
 ### Jan 21
 
