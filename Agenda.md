@@ -135,6 +135,8 @@ Here are quick links to the quiz readings on Brightspace.
       ```
 
 - **Homework**
+  - Add a `<script>` tag for the `~/src/005/live-demo/index.html` and put in some JavaScript to see what you can output in the terminal.
+  - Complete the [Intro to JavaScript](https://dgilleland.github.io/CPSC-1520/tutorials/0012/) tutorial.
 
 ----
 
