@@ -8,3 +8,11 @@
 
 	Use the skills you have learned up to this point.
 */
+confirm('Are you ready to start the contract?');
+// A function is a set of instructions to perform some task
+let firstParty = prompt('Enter the name of the first party');
+let secondParty = prompt('Enter the name of the second party');
+console.log(new Date(), firstParty, secondParty);
+
+document.querySelector('.disclosing-party').innerText = firstParty;
+document.querySelector('.receiving-party').innerText = secondParty;
