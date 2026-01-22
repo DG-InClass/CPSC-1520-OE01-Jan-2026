@@ -128,6 +128,12 @@ Here are quick links to the quiz readings on Brightspace.
       ```
 
   - 🕘 Part C)
+    - [Processing Information with Functions](./src/006/ReadMe.md)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/006 ./src/00
+      ```
+
 - **Homework**
 
 ----
