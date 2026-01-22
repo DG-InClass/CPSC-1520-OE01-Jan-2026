@@ -144,6 +144,9 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - Resume the 006 demos:
+      - [Demo Agreement](./src/006/demo-agreement)
+      - [Demo Addition](./src/006/demo-addition)
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
