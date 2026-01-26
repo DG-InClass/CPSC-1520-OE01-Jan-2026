@@ -1,0 +1,12 @@
+header {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    background-color: var(--pico-contrast-background);
+}
+#brand-name {
+    color: var(--pico-contrast-inverse)
+}
+nav a {
+    color: var(--pico-form-element-focus-color)
+}

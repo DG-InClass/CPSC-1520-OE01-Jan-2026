@@ -11,3 +11,6 @@
 - [ ] Describe how to call (invoke) functions in JavaScript
 - [ ] List three methods for user interaction that are part of the global object in the browser
 - [ ] List several methods that are members of the `console` object
+- [ ] Select HTML Elements from the DOM using `document.querySelector()` and `document.getElementById()`
+- [ ] Modify HTML Element contents using `.innerText` and `.innerHTML` properties
+- [ ] Apply a CSS class to an HTML Element
