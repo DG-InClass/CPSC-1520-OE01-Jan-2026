@@ -147,16 +147,38 @@ Here are quick links to the quiz readings on Brightspace.
     - Resume the 006 demos:
       - [Demo Agreement](./src/006/demo-agreement)
       - [Demo Addition](./src/006/demo-addition)
+      - Extend this lesson with the *Demo Edits* starter
+
+        ```ps
+        pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/006/demo-edits ./src/006/demo-edits
+        ```
+
   - 🕗 Part B)
+    - Create our own JavaScript functions
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/007 ./src/007
+      ```
+
   - 🕘 Part C)
+    - Complete the [`practice-agreement` demo](./src/007/practice-agreement/ReadMe.md)
 - **Homework**
+  - Try out the following tutorials
+    - [Querying the DOM](https://dgilleland.github.io/CPSC-1520/tutorials/0030/)
+    - [Using `<script>` Tags](https://dgilleland.github.io/CPSC-1520/tutorials/0040/)
 
 ### Jan 28
 
 - **Today**
   - 🕖 Part A)
+<!--
+    - [Demo Lab](https://classroom.github.com/a/VYlhnV5l)
+      - Be sure to use the `defer` attribute on your script tag instead of the `type="module"` (this is the only time I will ask for this in a lab/assignment)
+ -->
   - 🕗 Part B)
+    - In-Class Lab 1
   - 🕘 Part C)
+    - In-Class Lab 1
 - **Homework**
 
 ----
