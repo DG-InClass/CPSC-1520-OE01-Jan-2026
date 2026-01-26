@@ -180,6 +180,24 @@ Here are quick links to the quiz readings on Brightspace.
   - 🕘 Part C)
     - In-Class Lab 1
 - **Homework**
+  - Complete these JavaScript Quickstart tutorials
+    - [JavaScript Math](https://dgilleland.github.io/CPSC-1520/tutorials/0014/)
+    - [Manipulate Strings](https://dgilleland.github.io/CPSC-1520/tutorials/0015/)
+    - [Complex Data Types](https://dgilleland.github.io/CPSC-1520/tutorials/0016/)
+    - [Functions](https://dgilleland.github.io/CPSC-1520/tutorials/0017/)
+    - [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/)
+
+### Feb 2
+
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+
+### Feb 4
+
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
 
 ----
 
