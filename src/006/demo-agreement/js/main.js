@@ -14,5 +14,22 @@ let firstParty = prompt('Enter the name of the first party');
 let secondParty = prompt('Enter the name of the second party');
 console.log(new Date(), firstParty, secondParty);
 
+// .querySelector() takes in a "selector string". This works just like the selectors from CSS.
 document.querySelector('.disclosing-party').innerText = firstParty;
 document.querySelector('.receiving-party').innerText = secondParty;
+
+// Put those names in the bottom part with the signature as well
+document.querySelector('.signature .disclosing-party').innerText = firstParty;
+document.querySelector('.signature .receiving-party').innerText = secondParty;
+
+// Fill in the current date
+let today = new Date(); // defaults to current date/time
+let month = today.getMonth() + 1; // Jan is month #0
+let dayOfMonth = today.getDate();
+let year = today.getFullYear();
+
+let contractDate = document.querySelector('span.date');
+contractDate.innerText = `${month}, ${dayOfMonth}, ${year}`;
+// Template string        \______/  \___________/  \_____/
+//                             
+//                                   "1, 26, 2026"
