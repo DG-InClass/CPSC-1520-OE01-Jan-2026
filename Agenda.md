@@ -167,6 +167,8 @@ Here are quick links to the quiz readings on Brightspace.
     - [Querying the DOM](https://dgilleland.github.io/CPSC-1520/tutorials/0030/)
     - [Using `<script>` Tags](https://dgilleland.github.io/CPSC-1520/tutorials/0040/)
 
+    ![](./agenda/jan-26-extra-homework.png)
+
 ### Jan 28
 
 - **Today**
