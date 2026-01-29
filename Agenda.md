@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-26). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-28). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -173,10 +173,8 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
-<!--
     - [Demo Lab](https://classroom.github.com/a/VYlhnV5l)
       - Be sure to use the `defer` attribute on your script tag instead of the `type="module"` (this is the only time I will ask for this in a lab/assignment)
- -->
   - 🕗 Part B)
     - In-Class Lab 1
   - 🕘 Part C)
