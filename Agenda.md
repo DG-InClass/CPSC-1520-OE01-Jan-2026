@@ -193,16 +193,17 @@ Here are quick links to the quiz readings on Brightspace.
     - Lab 1 Solution
     - Complete 007
       - [Demo Greet](./src/007/ReadMe.md#demo-greet)
-  - 🕗 Part B)
+  - 🕗 Part B)<br />
+    🕘 Part C)
     - Lesson 008 - Intro to Events
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/008 ./src/008
       ```
 
-  - 🕘 Part C)
   - **Homework**
     - Complete [Practice Agreement](./src/007/ReadMe.md#practice-agreement)
+    - Review and study the code for [Lesson 8 `demo-events`](./src/008/demo-events/)
 
 ### Feb 4
 
