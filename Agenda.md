@@ -190,8 +190,14 @@ Here are quick links to the quiz readings on Brightspace.
 ### Feb 2
 
   - 🕖 Part A)
+    - Lab 1 Solution
+    - Complete 007
+      - [Demo Greet](./src/007/ReadMe.md#demo-greet)
   - 🕗 Part B)
+    - Lesson 008 - Intro to Events
   - 🕘 Part C)
+  - **Homework**
+    - Complete [Practice Agreement](./src/007/ReadMe.md#practice-agreement)
 
 ### Feb 4
 
