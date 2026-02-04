@@ -208,7 +208,22 @@ Here are quick links to the quiz readings on Brightspace.
 ### Feb 4
 
   - 🕖 Part A)
+    - 🗝️ Review Functions
+      - [ ] Describe the essential parts of a function declaration
+      - [ ] Define the term **parameter**
+      - [ ] Define the term **argument**
+      - [ ] Create functions that return a value
+    - 🚀 **JavaScript Modules** - `import` and `export`
+      > *This is essential for upcoming labs/assignments!*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/007/js-modules ./src/007/js-modules
+      ```
+
   - 🕗 Part B)
+    - In-Class Lab 1
+      - `pnpm install` and `pnpm dev` - then inspect the dev tools console window
+      - *Kick-start with exporting the correct function in `calculate.js`*
   - 🕘 Part C)
 
 ----
