@@ -221,7 +221,7 @@ Here are quick links to the quiz readings on Brightspace.
       ```
 
   - 🕗 Part B)
-    - In-Class Lab 1
+    - In-Class Lab 2
       - `pnpm install` and `pnpm dev` - then inspect the dev tools console window
       - *Kick-start with exporting the correct function in `calculate.js`*
   - 🕘 Part C)
