@@ -1,12 +1,30 @@
 // ~/src/007/js-quickstart/build-functions.js
 // node --watch build-functions.js
-console.log('Build my own functions');
+// Trying to capture info from a function
+// that doesn't explicitly return a value
+// turns out to be pretty useless.
+let result = showTitle('Build my own functions');
+console.log('The value of result is:', result);
+console.log(greet('Section E01'));
+
+function showTitle(msg) {
+    console.clear();
+    console.log(msg);
+    console.log("===========\n");
+}
 
 // There are two general perspective on functions in JavaScript (or any programming language)
 // A) Create ("declare") a function - This defines what the function will do
 // B) Use ("call") any function that has been declared.
 
 // Creating my own function involves it having a name, a parameter list, and a body (set of statements).
+// A parameter list is a comma-separated list of zero or more
+// variable names. Those variables are used to "capture" information
+// that might be passed in to the function when it is called.
+// All the variables in a parameter list are Local Variables,
+// meaning that they variable is only accessible from inside the
+// function. The life-time and scope of the parameter is limited
+// to the function in which it is declared.
 function greet(name) {
     return `Hello ${name}`;
 }
