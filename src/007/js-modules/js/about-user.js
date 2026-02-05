@@ -10,4 +10,4 @@ const aboutUser = function(progressElement, contentOutput) {
     contentOutput.innerHTML = `Hello <mark>${name}</mark>.`;
 }
 
-export { aboutUser }
+export { aboutUser } // exporting functions, etc. makes those public
