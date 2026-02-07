@@ -201,12 +201,13 @@ Here are quick links to the quiz readings on Brightspace.
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/008 ./src/008
       ```
 
-  - **Homework**
-    - Complete [Practice Agreement](./src/007/ReadMe.md#practice-agreement)
-    - Review and study the code for [Lesson 8 `demo-events`](./src/008/demo-events/)
+- **Homework**
+  - Complete [Practice Agreement](./src/007/ReadMe.md#practice-agreement)
+  - Review and study the code for [Lesson 8 `demo-events`](./src/008/demo-events/)
 
 ### Feb 4
 
+- **Today**
   - 🕖 Part A)
     - 🗝️ Review Functions
       - [ ] Describe the essential parts of a function declaration
@@ -225,6 +226,139 @@ Here are quick links to the quiz readings on Brightspace.
       - `pnpm install` and `pnpm dev` - then inspect the dev tools console window
       - *Kick-start with exporting the correct function in `calculate.js`*
   - 🕘 Part C)
+
+
+### Feb 9
+
+- **Today** - Continue Lesson 8
+  - 🕖 Part A)
+    - [ ] [Demo Events](./src/008/demo-events/ReadMe.md)
+  - 🕗 Part B)
+    - [ ] [Demo Text Manipulation](./src/008/demo-text-manipulation/ReadMe.md)
+  - 🕘 Part C)
+    - [ ] [Form Processing](./src/008/form-processing/ReadMe.md)
+- **Homework**
+  - Expand on the [Demo Text Manipulation](./src/008/demo-text-manipulation//ReadMe.md#pratice)
+
+
+### Feb 11
+
+- **Today**
+  - 📝 Assignment 1 is available Feb 13
+    - You will need to create the `package.json` by running `pnpm init` and `pnpm add -D vite`. You will also need to add additional packages.
+  - 🕖 Part A)
+    - Topic 009 - **If/Else**
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/009 ./src/009
+      ```
+
+  - 🕗 Part B)
+    - In-Class Lab 3
+      - **NOTE:** Do *not* use if/else or other flow control statements in your solution.
+  - 🕘 Part C)
+    - In-Class Lab 3
+- **Homework**
+  - Complete [this tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0019-etc/#grok-decisionsjs) on `if/else`. Be sure to include it in your [`js-quickstart`](./src/js-quickstart/) folder as the file `grok-decisions.js`.
+  - Another way to do decision structures in JavaScript is using the `switch` statement. Read the official documentation on the [Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) statement. Try the code example and add it to your `js-quickstart` folder.
+
+### Feb 16
+
+> ***Reading Break***
+
+### Feb 18
+
+> ***Reading Break***
+
+
+### Feb 23
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Feb 25
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Mar 1
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Mar 4
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Mar 9
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Mar 11
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+### Mar 16
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Mar 18
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Mar 23
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+
+### Mar 25
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
 
 ----
 
