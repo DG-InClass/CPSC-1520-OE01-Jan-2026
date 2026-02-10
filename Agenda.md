@@ -244,6 +244,9 @@ Here are quick links to the quiz readings on Brightspace.
 ### Feb 11
 
 - **Today**
+  - [ ] A bit more on Form Processing
+    - 🤔 *What do you do when your `<input>` name is in `kebab-case`?*
+  - [ ] Lab 2 Solution
   - 📝 Assignment 1 is available Feb 13
     - You will need to create the `package.json` by running `pnpm init` and `pnpm add -D vite`. You will also need to add additional packages.
   - 🕖 Part A)
