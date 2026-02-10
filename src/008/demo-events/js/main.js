@@ -7,7 +7,7 @@ const handleFeatureClick = function() {
     console.log('img.feature was clicked...');
     let desc = document.querySelector('.feature.description');
     // The next line will remove the CSS class `hidden` from the element
-    desc.classList.remove('hidden');
+    desc.classList.remove('hidden'); // making the poem visible
 }
 
 // 2. Cause my function to be called when the user clicks on the image
