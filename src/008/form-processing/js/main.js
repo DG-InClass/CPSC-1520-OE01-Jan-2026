@@ -65,11 +65,17 @@ const exploreForm = function(ev) {
 
     // If your input control has a name with a dash in it,
     // use the name's value as an "index" for the object. 🤔
-    let theBackgroundColorInput = theInputs['bg-color'];
+    let theBackgroundColorInput = theInputs['bg-color']; // Array accessor syntax
     // for <input type="radio" name="bg-color" value="#ff0000" />
+    // The following will NOT work
+    //  theBackgroundColorInput = theInputs.bg-color;
+    //                            \__________/-\___/
+    //                                        - is a minus sign
 
     // Here's an interesting (but wonky) use of indexers to call
     // the .log() function of the console object.
     console['log']("Isn't that cool?!");
+//  \____________/\_ args in parenth _/
+//     console.log("Isn't that cool?!");
 };
 otherForm.addEventListener('submit', exploreForm);
