@@ -1,9 +1,9 @@
 
-document.querySelector('form')
+document.querySelector('form') // There's only one <form>, so...
     .addEventListener('submit', function(evt) {
-        evt.preventDefault();
-        const form = evt.target;
-        const formControls = form.elements;
+        evt.preventDefault(); // 📌 Remember to do this for forms
+        const form = evt.target; // evt.target is the <form>
+        const formControls = form.elements; // every form has .elements
 
         console.log(formControls);
 
@@ -36,10 +36,29 @@ document.querySelector('form')
         let jobDuration = parseFloat(inputJobDuration.value);
         message = `Job duration: ${jobDuration}`;
         let inHours = inputRadioHours.checked;
+        // <input type="radio" /> .checked will be either true/false
         let inWeeks = inputRadioWeeks.checked;
         message = `\tinHours:${inHours} | inWeeks:${inWeeks}\n` + message;
         outputControl.value += message;
 
+        if(jobDuration <= 0) { // I am using a Relational Operator
+            // \n is the new-line character
+            // \t is the tab character
+            message = '\n\tERROR: Job Duration must be greater than zero.'
+            outputControl.value += message;
+        }
+
+        if(inHours || inWeeks) { // I am using a Logical Operator
+            message = '\nDuration chosen is: ';
+            if(inHours) {
+                message += 'Hours';
+            } else {
+                message += 'Weeks';
+            }
+        } else {
+            message = '\n\tERROR: Must choose either hours or weeks';
+        }
+        outputControl.value += message;
 
         // Digital Assets (extra charges)
         const inputImageCount = formControls.digitalAssetCount; // <input name="" />
