@@ -1,3 +1,4 @@
+import { feedbackOnImagePricing } from "./quoteSystem";
 
 document.querySelector('form') // There's only one <form>, so...
     .addEventListener('submit', function(evt) {
@@ -84,21 +85,7 @@ document.querySelector('form') // There's only one <form>, so...
         const inputPricePerImage = formControls.digitalAssetRate; // <input name="digitalAssetRate" />
         const pricePerImage = parseFloat(inputPricePerImage.value.trim());
 
-        // Recall how our conditional expression must be interpreted
-        // as a true or false value for the computer to understand
-        // what to do in our if statement.
-        // In JavaScript, an empty string, the number 0, and the
-        // special values of null and undefined are all treated
-        // as "falsey" (equivalent to false). Any other non-boolean
-        // value is treated as "truthy"
-        if(imageCount) { // Remember, we know this is a number
-            // TODO: A price-per-image must be $10 or greater.
-            message += `\n${imageCount} images at $ ${pricePerImage}/image`;
-        } else if (pricePerImage) {
-            message += `\n\tNOTE: No images are included, but a price per image was supplied: ${pricePerImage}`;
-        } else {
-            message += `\nThere are no images included in this estimate.`;
-        }
+        message += feedbackOnImagePricing(imageCount, pricePerImage);
 
         // Content Authoring (extra charges)
         const inputIncludeContent = formControls.includeContent; // <input type="checkbox" name="includeContent" />
@@ -119,8 +106,16 @@ document.querySelector('form') // There's only one <form>, so...
             // A start date was not supplied (I have an empty string)
             message += '\n\tERROR! A proposed start date must be supplied.';
         } else {
-            startDate = new Date(startDateText);
+            startDate = new Date(startDateText.replace('-', '/'));
             message += `\nThe proposed start date is ${startDate}`;
+            let dateParts = startDateText.split('-').map(x => parseInt(x));
+            let temp = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+            message += `\nThe proposed start date is ${temp}`;
+            message += `\nThe proposed start date is ${startDateText}`;
+            const today = new Date(); // Current date/time
+            if(startDate <= today) {
+                message += '\n\tERROR! The proposed start date must be in the future.';
+            }
         }
 
         // TODO: Determine quote amounts
