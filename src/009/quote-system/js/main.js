@@ -58,15 +58,74 @@ document.querySelector('form') // There's only one <form>, so...
         } else {
             message = '\n\tERROR: Must choose either hours or weeks';
         }
-        outputControl.value += message;
 
         // Digital Assets (extra charges)
-        const inputImageCount = formControls.digitalAssetCount; // <input name="" />
+/* 
+         *  - digital assets must be greater than or equal to zero
+         *  - if there are digital assets, then the per-asset price must be greater than $10
+*/        
+        const inputImageCount = formControls.digitalAssetCount; // <input name="digitalAssetCount" />
+        let imageCount = parseFloat(inputImageCount.value.trim());
+        //    Overkill to trim numeric input               \_____/
+        if(isNaN(imageCount)) {
+            // Since this is from a <input type="number" />,
+            // treat the value as being equivalent to zero
+            imageCount = 0;
+        } else {
+            if(imageCount !== parseInt(imageCount)) {
+                // that's an indication of not being a whole number
+                message += `\n\tERROR! Your image count must be a whole number. You supplied: (${imageCount})`;
+            }
+            if(imageCount < 0) {
+                message += `\n\tERROR! Image count must be zero (or blank) or a positive number. You supplied a negative image count.`;
+            }
+        }
+
         const inputPricePerImage = formControls.digitalAssetRate; // <input name="digitalAssetRate" />
+        const pricePerImage = parseFloat(inputPricePerImage.value.trim());
+
+        // Recall how our conditional expression must be interpreted
+        // as a true or false value for the computer to understand
+        // what to do in our if statement.
+        // In JavaScript, an empty string, the number 0, and the
+        // special values of null and undefined are all treated
+        // as "falsey" (equivalent to false). Any other non-boolean
+        // value is treated as "truthy"
+        if(imageCount) { // Remember, we know this is a number
+            // TODO: A price-per-image must be $10 or greater.
+            message += `\n${imageCount} images at $ ${pricePerImage}/image`;
+        } else if (pricePerImage) {
+            message += `\n\tNOTE: No images are included, but a price per image was supplied: ${pricePerImage}`;
+        } else {
+            message += `\nThere are no images included in this estimate.`;
+        }
 
         // Content Authoring (extra charges)
         const inputIncludeContent = formControls.includeContent; // <input type="checkbox" name="includeContent" />
+        const includeContentCreation = inputIncludeContent.checked;
+        // Radio Buttons and Checkboxes have a .checked property
+
         const inputPerWordRate = formControls['per-word-rate']; // <input name="per-word-rate" />
+        const perWordRate = parseFloat(inputPerWordRate.value.trim());
+        // TODO: Validate the perWordRate
+
         const inputStartDate = formControls['start-date']; // <input type="date" name="start-date" />
+        // console.clear();
+        // console.log(inputStartDate.value, 'is a', typeof inputStartDate.value); // just to see what format
+        debugger;
+        const startDateText = inputStartDate.value;
+        let startDate;
+        if(!startDateText) {
+            // A start date was not supplied (I have an empty string)
+            message += '\n\tERROR! A proposed start date must be supplied.';
+        } else {
+            startDate = new Date(startDateText);
+            message += `\nThe proposed start date is ${startDate}`;
+        }
+
+        // TODO: Determine quote amounts
+
+        // Output the messages
+        outputControl.value += message;
 
     });
