@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#feb-11). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#feb-23). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -278,10 +278,59 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - **Everybody** do a commit and push of your student workbook
+    - Busy Week:
+      - Quiz due before end of week
+      - In-Class Lab on Wednesday
+      - Assignment 1 due date extended to *Mar 6*
+    - Continue Topic 009 - **If/Else**
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
+  - [ ] Read the [Logical Errors](https://dgilleland.github.io/CPSC-1520/guides/0150/) article on "Faulty" Conditionals
+  - [ ] Refresher on DOM modifications, specifically
+    - [Selector strings](https://gist.github.com/magicznyleszek/809a69dd05e1d5f12d01) with `document.querySelector()`
+    - Recommended usage of `.innerText` instead of `.textContent`
+      - We will use **innerText** in this course
+      - *but for a deeper comparison, see [this article](https://medium.com/@ashishkumarjena1437/understanding-innertext-textcontent-and-innerhtml-in-javascript-87f3bc2b8e17)*
 
+<!-- 
+📌
+  - 🎉 Assignment 1
+    - Startup Help
+
+      ```ps
+      pnpm add -D @d2t/vitest-ctrf-json-reporter
+      ```
+
+    - Helper Functions
+
+      ```js
+      const setInvalid = (field) => {
+        field.setAttribute('aria-invalid','true');
+        const id = field.getAttribute('aria-describedby');
+        if (id) document.getElementById(id)?.classList.remove('hide');
+      };
+      const clearInvalid = (field) => {
+        field.removeAttribute('aria-invalid');
+        const id = field.getAttribute('aria-describedby');
+        if (id) document.getElementById(id)?.classList.add('hide');
+      };
+      ```
+
+    - 📝 TIPS
+      - Use `.trim()` whenever retrieving the `.value` of an input
+      - Log messages to the Dev Tools Console whenever you need to check the value of things at any point in your code.
+
+        Check out [`console.assert()`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert_static) and/or make it stand out with some custom formatting using functions like this:
+
+        ```js
+        function logWithColor(title, message, color) {
+            console.log(`%c${title}:%c ${message}`, 'color: green; background-color: white; font-size: 1.05rem; font-weight: bold;', `color: ${color ? color : 'inherit'}`);
+        }
+        ```
+
+ -->
 
 ### Feb 25
 
@@ -364,7 +413,7 @@ Here are quick links to the quiz readings on Brightspace.
 
 
 ----
-
+<!--
 ## Sep-Dec 2025 Schedule
 
 ### Sep 05
@@ -572,7 +621,6 @@ Here are quick links to the quiz readings on Brightspace.
 ----
 
 
--->
 
 
 ### Sep 12
@@ -654,7 +702,6 @@ Here are quick links to the quiz readings on Brightspace.
     ```
 
     ✨ Remember to clone/push the starter kit you just grabbed:
- -->
 
 - **Today**
   - [ ] ***Lab 1 Solution Review***
@@ -788,7 +835,7 @@ Here are quick links to the quiz readings on Brightspace.
 - ***No Classes*** - Thanksgiving
 
 ### Oct 15
-
+📌
 - **Today:**
   - *About **Lab 4***
   - `if`/`else` Questions
