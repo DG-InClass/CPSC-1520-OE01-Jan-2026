@@ -15,8 +15,8 @@ This draft planning calendar shows the dates for all **evaluation items**. For a
 | Week 5  |   Feb 1 - 7    |                | Lab 2, Feb 4  |                             |
 | Week 6  |   Feb 8 - 14   | Quiz 2, Feb 13 | Lab 3, Feb 11 | *Out: Assignment 1, Feb 13* |
 |  BREAK  |  Feb 15 - 21   |                |               |                             |
-| Week 7  |  Feb 22 - 28   | Quiz 3, Feb 27 | Lab 4, Feb 25 | Due: Assignment 1, Feb 27   |
-| Week 8  |   Mar 1 - 7    |                | Lab 5, Mar 4  |                             |
+| Week 7  |  Feb 22 - 28   | Quiz 3, Feb 27 | Lab 4, Feb 25 |                             |
+| Week 8  |   Mar 1 - 7    |                | Lab 5, Mar 4  | Due: Assignment 1, Mar 6    |
 | Week 9  |   Mar 8 - 14   |                |               | *Out: Assignment 2, Mar 13* |
 | Week 10 |  Mar 15 - 21   |                | Lab 6, Mar 18 |                             |
 | Week 11 |  Mar 22 - 28   | Quiz 4, Mar 27 |               | Due: Assignment 2, Mar 27   |
