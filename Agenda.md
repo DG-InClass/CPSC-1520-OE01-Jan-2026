@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#feb-25). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#mar-2). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -349,11 +349,19 @@ Here are quick links to the quiz readings on Brightspace.
 - **Homework**
 
 
-### Mar 1
+### Mar 2
 
 - **Today**
   - 🕖 Part A)
+    - Continue Topic 10 on Looping and Arrays
+      - [Checkboxes](./src/010/Checkboxes/ReadMe.md)
   - 🕗 Part B)
+    - Topic 11
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/011 ./src/011
+      ```
+
   - 🕘 Part C)
 - **Homework**
 
@@ -363,7 +371,9 @@ Here are quick links to the quiz readings on Brightspace.
 - **Today**
   - 🕖 Part A)
   - 🕗 Part B)
+    - In-Class Lab 5
   - 🕘 Part C)
+    - In-Class Lab 5
 - **Homework**
 
 
