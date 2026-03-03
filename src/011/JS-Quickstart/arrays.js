@@ -4,9 +4,11 @@ const log = console.log;
 // 1) Strings and Arrays
 topic("Strings and Arrays");
 let message = "Work hard and you'll get Arrays!";
-let words = message.split(' ');
+let words = message.split(' '); // the split character(s) is removed from the results
 log("When we split a sentance into words:\n", words);
 
+// process.exit(0); // Quick-n-Dirty exit
+console.clear(); // Quick clear of display
 // Discover for..in
 for(let index in words) {
     let aWord = words[index];
@@ -20,6 +22,8 @@ for(let aWord of words) {
 }
 
 
+// process.exit(0); // Quick-n-Dirty exit
+console.clear(); // Quick clear of display
 
 // 2) Helpful Arrays for Dates
 topic("Helpful Arrays for Dates");
