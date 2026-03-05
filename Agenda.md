@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#mar-2). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#mar-4). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -370,6 +370,9 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - Side-note: Optional Chaining Operator `?.`
+    - [JS Quickstart - Cards](./src/011/JS-Quickstart/cards.js)
+    - [PlayingCards Website](./src/011/PlayingCards/ReadMe.md)
   - 🕗 Part B)
     - In-Class Lab 5
   - 🕘 Part C)
@@ -853,7 +856,7 @@ Here are quick links to the quiz readings on Brightspace.
 - ***No Classes*** - Thanksgiving
 
 ### Oct 15
-📌
+
 - **Today:**
   - *About **Lab 4***
   - `if`/`else` Questions
@@ -904,7 +907,7 @@ Here are quick links to the quiz readings on Brightspace.
     ```ps
     pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011 ./src/011
     ```
--->
+-- >
 
 - **Homework** 
   - Study the code for the following files in the starter kit:
@@ -942,7 +945,7 @@ Here are quick links to the quiz readings on Brightspace.
 
       ✨ Remember to commit/push the starter kit before you make edits
 
-- **Homework:**
+📌📌- **Homework:**
   - Slideshow (Practice)
 
     ```ps
