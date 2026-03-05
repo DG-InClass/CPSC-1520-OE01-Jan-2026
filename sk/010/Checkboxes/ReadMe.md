@@ -51,7 +51,19 @@ In this example, we have a simple interface displaying message subject lines and
     ```
 
 1. How might you re-write the loop to use a traditional `for` statement? Give it a try!
+1. Add these comments to your code and then try to modify the checkboxes so that they toggle from their *individual checked state*.
 
+    ```js
+    let index = 0;
+    while(index < allCheckboxes.length) {
+        // How would you change the following line so that
+        // it toggles the individual checkboxes instead of
+        // making all the checkboxes match the toggleAll's
+        // checked state?
+        allCheckboxes[index].checked = target.checked;
+        index += 1;
+    }
+    ```
 
 ## Challenge Modifications
 
