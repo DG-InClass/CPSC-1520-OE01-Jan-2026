@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#mar-4). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#mar-9). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -384,8 +384,24 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - HTTP and Server-side API Endpoints
+      - Focus on REST-styled APIs.
+      - We'll set up a "fake" REST server and explore get/post/put/delete
+
+        ```ps
+        pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-15 ./src/012
+        ```
+
   - 🕗 Part B)
+      - We'll install a VS Code extension to play with REST calls
   - 🕘 Part C)
+    - BONUS: Exploring JavaScript on the Server
+      - We'll explore a sample Http-Server as well.
+
+        ```ps
+        pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/sample-http-server ./src/014/sample-http-server
+        ```
+
 - **Homework**
 
 
