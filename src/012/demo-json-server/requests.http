@@ -1,0 +1,43 @@
+# requests.http
+
+### GET all books
+GET http://localhost:3000/books
+Accept: application/json
+
+### POST new book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "The Princess Bride",
+    "author": "William Goldman",
+    "year": 1973,
+    "genre": "Fantasy"
+}
+
+### PATCH update a book
+PATCH http://localhost:3000/books/2
+Content-Type: application/json
+
+{
+    "author": "Link, the Hero of Time"
+}
+
+### DELETE a book
+DELETE http://localhost:3000/books/3
+
+### GET an external API call
+GET https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1
+Accept: application/json
+
+### GET request to draw cards
+GET https://deckofcardsapi.com/api/deck/di9wj0quwt8l/draw/?count=5
+Accept: application/json
+
+### GET an image
+GET https://deckofcardsapi.com/static/img/3S.png
+Accept: image/png
+
+### GET the artists
+GET http://localhost:3000/albums
+Accept: application/json

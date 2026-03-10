@@ -1,0 +1,40 @@
+{
+  "albums": [
+    {
+      "id": "1",
+      "title": "The Great Adventure",
+      "artist": "Steven Curtis Chapman"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "The Legend of Hyrule",
+      "author": "Zelda",
+      "year": 2020,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "2",
+      "title": "The Hero's Journey",
+      "author": "Link",
+      "year": 2022,
+      "genre": "Adventure"
+    },
+    {
+      "id": "3",
+      "title": "Chronicles of Ganon",
+      "author": "Ganondorf",
+      "year": 2021,
+      "genre": "Epic"
+    },
+    {
+      "id": "3215",
+      "title": "The Princess Bride",
+      "author": "William Goldman",
+      "year": 1973,
+      "genre": "Fantasy"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
