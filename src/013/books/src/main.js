@@ -1,9 +1,10 @@
 // Import the functions necessary to make the API calls
-import { fetchData } from './utils';
+import { fetchData, postData } from './utils';
 
 // Select the necessary DOM elements
 const loadButton = document.getElementById('loadBooks');
 const list = document.getElementById('bookList');
+const addForm = document.getElementById('addBook');
 
 // Define the API endpoint
 const endpoint = 'http://localhost:3000/books'; // Note: This variable might be better to put in another file (depending on how complex/large your code starts to get in `main.js`)
@@ -30,8 +31,33 @@ const loadHandler = function() {
 }
 
 // Define a function to handle form submission for adding a new book
+const submitHandler = async function(evt) {
+    evt.preventDefault(); // stops the form from submitting and the page from refreshing
+    /** @type {HTMLFormElement} */
+    const form = evt.target;
+    // 💫 Use the FormData API/class to collect use input from the form
+    const formData = new FormData(form);
+    console.log('User Inputs:', formData);
+    // "convert" the form data into a simple JavaScript object
+    const data = Object.fromEntries(formData.entries());
+    data.year = parseInt(data.year);
+    console.log('Actual user input:', data);
+
+    // Sending this to the REST API to add our book
+    // Note: We'll "continue" the async/await approach
+    try {
+        await postData(endpoint, data);
+        // Call loadHandler to "refresh" the list
+        loadHandler();
+        form.reset(); // clear out the form.
+    } catch(err) {
+        // TODO: Display the error in a nicer way to the user.
+        console.log('Error submitting form:', err);
+    }
+}
 
 // Attach event listeners to the button and form
 loadButton.addEventListener('click', loadHandler);
+addForm.addEventListener('submit', submitHandler);
 
 // TODO: Add delete functionality

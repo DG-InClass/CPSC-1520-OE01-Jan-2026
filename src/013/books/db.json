@@ -20,6 +20,28 @@
       "author": "Ganondorf",
       "year": 2021,
       "genre": "Epic"
+    },
+    {
+      "id": "e2df",
+      "title": "Prince Caspian",
+      "author": "C.S. Lewis",
+      "year": 1951,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "4d28",
+      "title": "The Lion, The Witch and the Wardrobe",
+      "author": "C.S. Lewis",
+      "year": 1950,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "60ef",
+      "title": "The Imaginary Book",
+      "author": "Some Onne",
+      "year": 1978,
+      "genre": "Epic"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
