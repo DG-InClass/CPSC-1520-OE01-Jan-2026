@@ -10,11 +10,23 @@ const endpoint = 'http://localhost:3000/books'; // Note: This variable might be 
 
 // Define a function to handle loading and displaying the list of books
 const loadHandler = function() {
+    // Note: A Promise<T> has two associated functions:
+    //   .then(), which also returns a Promise<T> - when the promise suceeds
+    //   .catch(), which returns a Promise<T> - when the promise fails (is rejected)
     fetchData(endpoint)
         .then(data => {
             // 😁 Looks like we got data parsed from JSON endpoint
             console.log(data);
+            list.innerHTML = ''; // Clear the existing content
+            data.forEach(book => {
+                const li = `<li>${book.title} by ${book.author}</li>`;
+                list.innerHTML += li; // Appending to the .innerHTML
+            })
         })
+        .catch(err => {
+            // Let's handle the error
+            list.innerHTML = `<li style="color:red">Error: ${err.message}</li>`;
+        });
 }
 
 // Define a function to handle form submission for adding a new book
