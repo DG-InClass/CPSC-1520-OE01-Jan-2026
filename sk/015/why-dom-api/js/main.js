@@ -4,8 +4,16 @@ const theForm = document.querySelector('form');
 
 theForm.addEventListener('submit', function(evt) {
     evt.preventDefault();
-    const html = evt.target.elements.htmlContent.value;
-    document.getElementById('output').innerHTML = html; // 💣
+    const html = evt.target.elements.htmlContent.value.trim();
+    const container = document.getElementById('output');
+    if(html) {
+        container.innerHTML = html; // 💣
+    } else {
+        const template = document.getElementById('default-content');
+        const clone = template.content.cloneNode(true);
+        container.innerHTML = '';
+        container.appendChild(clone);
+    }
 });
 
 theForm.addEventListener('click', function(evt) {
