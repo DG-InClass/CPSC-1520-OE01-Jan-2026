@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button[type=button] {
+            max-width: 250px;
+        }
+    </style>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body class="container">
+    <h1>The Problem with <output>.innerHTML</output></h1>
+    <form action="">
+        <label>
+            Enter some HTML:
+            <input type="text" name="htmlContent" />
+        </label>
+        <details>
+            <summary>Sample Safe Content</summary>
+            <div role="group">
+                <pre><output>Hello &lt;em&gt;&lt;strong&gt;Trusting&lt;/strong&gt;&lt;/em&gt; World!</output></pre>
+                <button type="button" class="outline">Use this</button>
+            </div>
+        </details>
+        <details>
+            <summary>Sample Dangerous Content</summary>
+            <div role="group">
+                <pre><output>Hello &lt;img src="x" onerror="alert('PWND')" /&gt; Hacker World!</output></pre>
+                <button type="button" class="outline">Use this</button>
+            </div>
+        </details>
+        <button>Submit</button>
+    </form>
+    <hr/>
+    <section id="output" class="card"></section>
+    <hr/>
+    
+    <template id="default-content">
+        <h4>HTML Template Element</h4>
+        <p>The content in the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/template" target="_blank" rel="noopener noreferrer"><code>&lt;template&gt;</code></a> element is <em>not</em> rendered by the browser. But with JavaScript<sup>&reg;</sup>, we can use this to programmatically include markup in our page.</p>
+        <blockquote>This default content was used because nothing was entered in the <code>&lt;input /&gt;</code>.</blockquote>
+    </template>
+</body>
+</html>
