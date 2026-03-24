@@ -407,15 +407,37 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Mar 11
 
-- **Today**
-  - 🕖 Part A)
+- **Today** - (013) 
+  - 🕖 Part A) JSON and Fetch
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/013 ./src/013
+      ```
+
+    -  JS-Quickstart/about-fetch.js
+    -  JS-Quickstart/about-fetch-then-map.js
+
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
 
 ### Mar 16
 
-- **Today**
+- **Today** - (014) Array Methods (and Callback Functions) In Depth
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-16 ./src/013/books
+      ```
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/013/guest-list ./src/013/guest-list
+      ```
+
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/014 ./src/014
+      ```
+
   - 🕖 Part A)
   - 🕗 Part B)
   - 🕘 Part C)
@@ -424,19 +446,37 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Mar 18
 
-- **Today**
+- **Today** - (015) `<template>` and *Lab 6*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/015 ./src/015
+      ```
+
   - 🕖 Part A)
+    - Using `<template>` elements in JavaScript
   - 🕗 Part B)
+    - In-Class Lab 6
   - 🕘 Part C)
+    - In-Class Lab 6
 - **Homework**
 
 
 ### Mar 23
 
 - **Today**
-  - 🕖 Part A)
+  - 🕖 Part A) DOM API (`.createElement()`, `.createTextNode()`, `.setAttribute()`, `.getAttribute()` et.al.)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/016 ./src/016
+      ```
+
   - 🕗 Part B)
-  - 🕘 Part C)
+  - 🕘 Part C) Fetching Markdown
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/017 ./src/017
+      ```
+
 - **Homework**
 
 
@@ -444,9 +484,107 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - Let's look at the Guest List demo
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/013/guest-list ./src/016/guest-list
+      ```
+
+  - 🕗 Part B) Timeouts and Intervals
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/018 ./src/018
+      ```
+
+  - 🕘 Part C) Stopwatch
+- **Homework**
+
+### Mar 30
+
+- **Today**
+  - 🕖 Part A)Classes
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-OE01-Jan-2026/sk/019 ./src/019
+      ```
+
+  - 🕗 Part B)
+    - 📦 Gotta talk more objects
+      - [Some more about Objects and JSON](./src/012/JS-Quickstart/about-objects.js)
+      - [Create `about-passing-objects.js`](./src/012/JS-Quickstart/about-passing-objects.js)
+  - 🕘 Part C)
+    - 🤔 What about sorting arrays
+      - [Create `another-array-note.js`](./src/012/JS-Quickstart/another-array-note.js)
+      - A practical example with [Playing Cards](./src/012/PlayingCards/ReadMe.md)
+- **Homework**
+
+### Apr 1
+
+- **Today**
+  - 🕖 Part A)
+    - In-Class Lab 7
+  - 🕗 Part B)
+    - In-Class Lab 7
+  - 🕘 Part C)
+    - In-Class Lab 7
+- **Homework**
+
+### Apr 6
+
+- **✝️ No Class (Easter Monday)**
+
+### Apr 8
+
+- **Today**
+  - 🕖 Part A)
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
+
+### Apr 13
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+### Apr 15
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+### Apr 20
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
+
+### Apr 22
+
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+    - In-Class Lab 8
+  - 🕘 Part C)
+    - In-Class Lab 8
+- **Homework**
+
+
+
+
+
+
+
+
+
+
+
 
 
 ----
