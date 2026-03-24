@@ -1,5 +1,7 @@
 # Ad-Hoc Markdown Parsing
 
+Imagine the possibilities! I can just create the content for my website as plain-old Markdown documents. Then, with a little bit of JavaScript, this content can be *dynamically* loaded into the page, complete with all the styling available through ***classless* CSS** (like PicoCSS).
+
 ## Setup Notes
 
 - Created an `index.html` with the CDN for [PicoCSS](https://PicoCSS.com).
