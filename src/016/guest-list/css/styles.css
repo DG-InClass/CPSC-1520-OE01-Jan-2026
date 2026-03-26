@@ -1,0 +1,27 @@
+#guest-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0; /* remove since gap handles spacing */
+}
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.info {
+    flex: 1;
+}
+.first-name, .last-name {
+    font-size: 1.2em;
+}
