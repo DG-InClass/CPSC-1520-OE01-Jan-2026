@@ -1,4 +1,4 @@
-/**
+/*
  * Main entry point for the guest list application.
  * Coordinates data fetching and presentation.
  */
