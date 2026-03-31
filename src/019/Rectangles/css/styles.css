@@ -1,0 +1,21 @@
+/* ~/css/styles.css */
+
+/* The @import CSS Rule is a way to bring in other stylesheets */
+@import "tailwindcss";
+
+/* Tailwind CSS offers its own @apply rule */
+body {
+    @apply container pt-4 px-4;
+}
+
+h1 {
+    @apply font-bold text-3xl text-indigo-700;
+}
+
+#shapes {
+    @apply flex gap-4;
+
+    > div {
+        @apply border border-solid bg-red-700;
+    }
+}
