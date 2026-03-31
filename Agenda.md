@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#mar-25). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#mar-30). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -517,6 +517,7 @@ Here are quick links to the quiz readings on Brightspace.
       - [Create `another-array-note.js`](./src/012/JS-Quickstart/another-array-note.js)
       - A practical example with [Playing Cards](./src/012/PlayingCards/ReadMe.md)
 - **Homework**
+  - Review the [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/) tutorial
 
 ### Apr 1
 
