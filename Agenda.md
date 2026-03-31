@@ -509,13 +509,7 @@ Here are quick links to the quiz readings on Brightspace.
       ```
 
   - 🕗 Part B)
-    - 📦 Gotta talk more objects
-      - [Some more about Objects and JSON](./src/019/JS-Quickstart/about-objects.js)
-      - [Create `about-passing-objects.js`](./src/019/JS-Quickstart/about-passing-objects.js)
   - 🕘 Part C)
-    - 🤔 What about sorting arrays
-      - [Create `another-array-note.js`](./src/019/JS-Quickstart/another-array-note.js)
-      - A practical example with [Playing Cards](./src/019/PlayingCards/ReadMe.md)
 - **Homework**
   - Review the [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/) tutorial
 
@@ -539,7 +533,13 @@ Here are quick links to the quiz readings on Brightspace.
 - **Today**
   - 🕖 Part A)
   - 🕗 Part B)
+    - 📦 Gotta talk more objects
+      - [Some more about Objects and JSON](./src/019/JS-Quickstart/about-objects.js)
+      - [Create `about-passing-objects.js`](./src/019/JS-Quickstart/about-passing-objects.js)
   - 🕘 Part C)
+    - 🤔 What about sorting arrays
+      - [Create `another-array-note.js`](./src/019/JS-Quickstart/another-array-note.js)
+      - A practical example with [Playing Cards](./src/019/PlayingCards/ReadMe.md)
 - **Homework**
 
 ### Apr 13
