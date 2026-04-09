@@ -547,6 +547,8 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - 🕖 Part A)
+    - Unit Testing
+      - Sorting Playing Cards
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
