@@ -4,14 +4,17 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.15.0",
   "devDependencies": {
-    "vite": "^7.1.11"
+    "jsdom": "^29.0.2",
+    "vite": "^7.1.11",
+    "vitest": "^4.1.4"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
