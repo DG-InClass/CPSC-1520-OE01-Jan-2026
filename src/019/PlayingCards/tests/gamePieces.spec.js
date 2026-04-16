@@ -1,6 +1,6 @@
 // ~/tests/gamePieces.spec.js
 import { describe, test, it, expect } from 'vitest';
-import { isCard, CARD_CODES } from '../js/gamePieces';
+import { buildCard, isCard, CARD_CODES, nameCard } from '../js/gamePieces';
 
 // There are two primary "game pieces":
 // - Individual Playing Cards
@@ -52,6 +52,29 @@ describe('Game Piece utility functions/object/types', () => {
         // Assert
         expect(actual).toBe(false);
     });
+
+    test.each([
+        { code: 'QH', value: 'Queen', suit: 'Hearts' },
+        { code: 'AD', value: 'Ace', suit: 'Diamonds' }
+    ])
+    ('buildCard() should return a Card object %o', (expected) => {
+       // Arrange
+       // Act
+       const actual = buildCard(expected.code);
+       // Assert
+       expect(actual).toEqual(expect.objectContaining(expected)); // Content comparison
+       expect(actual).toStrictEqual(expected); // Structural comparison ("deep equality" comparison)
+    });
+
+    test.each([
+        { code: '2H', name: 'Two of Hearts' },
+        { code: 'JH', name: 'Jack of Hearts' }
+    ])
+    ('nameCard() should produce $name from $code', ({code, name}) => {
+        const actual = nameCard(code);
+        expect(actual).toBe(name);
+    });
+    
 });
 
 describe('Individual Playing Card', () => {
