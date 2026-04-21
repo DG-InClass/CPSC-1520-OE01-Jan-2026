@@ -73,6 +73,36 @@ const Rectangle = class {
 }
 ```
 
+## Rectangle Class Diagram
+
+The current demo's `Rectangle` class in `js/Rectangle.js` has public instance data for `height` and `width`, a class-level `count`, and two public instance methods.
+
+```mermaid
+classDiagram
+    class Rectangle {
+        height
+        width
+        constructor(height, width)
+        count$
+        report()
+        render(container)
+    }
+```
+
+### How to Read This Diagram
+
+- The top part of the box is the class name: `Rectangle`.
+- The middle part lists the data or attributes stored by each rectangle object, such as `height` and `width`.
+- The bottom part lists the behaviour or methods, such as `report()` and `render(container)`.
+- `constructor(height, width)` shows what runs when you write `new Rectangle(height, width)`.
+- A `$` marker means the member is static, so it belongs to the `Rectangle` class itself rather than to one individual object.
+- If a member does not have a `$` marker, assume it is an instance member that belongs to each rectangle object created from the class.
+- In some class diagrams, `+` means public and `-` means private.
+- If a class member does not show a `+` or `-` symbol, assume it is public unless the code says otherwise.
+- Parameter names such as `container` show the kind of input a method expects, not the actual value passed at runtime.
+
+In this demo, `Rectangle.count` is read from the class itself, while `box.report()` and `box.render(...)` are called on an individual rectangle object.
+
 ## Documenting Our Class
 
 By using JSDoc, we can make our class easier to use/consume in other areas of our program.
