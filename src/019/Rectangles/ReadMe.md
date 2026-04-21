@@ -95,8 +95,8 @@ classDiagram
 - The middle part lists the data or attributes stored by each rectangle object, such as `height` and `width`.
 - The bottom part lists the behaviour or methods, such as `report()` and `render(container)`.
 - `constructor(height, width)` shows what runs when you write `new Rectangle(height, width)`.
-- A `$` marker means the member is static, so it belongs to the `Rectangle` class itself rather than to one individual object.
-- If a member does not have a `$` marker, assume it is an instance member that belongs to each rectangle object created from the class.
+- An underlined class member means that member is static, so it belongs to the `Rectangle` class itself rather than to one individual object. (In the underlying *mermaid* documentation, that is denoted by a `$` marker.)
+- If a member is not underlined (does not have a `$` marker), assume it is an instance member that belongs to each rectangle object created from the class.
 - In some class diagrams, `+` means public and `-` means private.
 - If a class member does not show a `+` or `-` symbol, assume it is public unless the code says otherwise.
 - Parameter names such as `container` show the kind of input a method expects, not the actual value passed at runtime.
